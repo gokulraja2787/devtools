@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y wget xz-utils
 
 RUN echo "Basic Ubuntu image"
 

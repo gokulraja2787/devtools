@@ -2,10 +2,14 @@
 
 Sub project to build docker image for nginx
 
-<span style="text-decoration:underline">To enable site:</span>
-- Put [site-name].conf in /opt/site.d/
+<span style="text-decoration:underline">Please override the configurations:</span>
+    <ul>
+        <li>/var/www/html/ <-- WWW Docroot</li>
+        <li>/var/www/html/500.html <-- HTTP 50x Error file</li>
+        <li>/var/www/html/404.html <-- HTTP 40x Error file</li>
+        <li>/etc/ngnix/conf.d/default.conf <-- nginx conf</li>
+    </ul>
 
-<span style="text-decoration:underline">To enable SSL:</span>
-- Copy the key and crt file in /opt/ssl
+### Please feel free to do more customization
 
 <hr />

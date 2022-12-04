@@ -1,5 +1,5 @@
 FROM gokul2787/devtools:ubuntu
-RUN apt-get install -y gpg nginx
+RUN apt-get install -y nginx
 
 RUN echo "Setup ngnix"
 COPY ./default.conf /etc/ngnix/conf.d/default.conf

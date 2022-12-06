@@ -11,5 +11,7 @@ Sub project to build docker image for nginx
     </ul>
 
 ### Please feel free to do more customization
-
+* Runs in user apps and group app,
+* The server_name is demongnix.org, and
+* The docroot, config, log files must have permission to user 'app'.
 <hr />
